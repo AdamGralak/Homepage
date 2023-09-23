@@ -1,0 +1,118 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+.container {
+    padding: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: "Lato";
+    background-color: hsl(0, 0%, 84%);
+}
+
+.container__dark {
+    background-color: hsl(0, 0%, 18%);
+    color: hsl(0, 0%, 100%)
+}
+
+.container__header {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: hsl(180, 100%, 97%);
+    background-color: hsl(180, 100%, 10%);
+    padding: 15px;
+}
+
+.nav {
+    color: hsl(180, 100%, 17%);
+    background-color: hsl(0, 0%, 74%);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px;
+    margin-bottom: 32px;
+}
+
+.nav__list {
+    list-style-type: none;
+}
+
+.nav__checkOption {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.nav__item {
+    text-decoration: none;
+    color: hsl(180, 100%, 17%);
+}
+
+.nav__item:hover {
+    color: hsl(180, 50%, 33%);
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.mainHeader {
+    font-size: 30px;
+    color: hsl(180, 100%, 18%);
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.photo__position {
+    text-align: center;
+}
+
+.photo {
+    border-radius: 5%;
+}
+
+.main__article {
+    font-size: 22px;
+    color: hsl(180, 100%, 18%);
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.main__table {
+    color: hsl(180, 100%, 27%);
+    border-collapse: collapse;
+    border: 1px;
+}
+
+.main__table--tableCell {
+    border: 1px hsl(0, 0%, 40%) solid;
+    padding: 5px;
+    text-align: center;
+}
+
+.footer {
+    color: hsl(180, 100%, 97%);
+    background-color: hsl(180, 100%, 10%);
+    font-size: 12px;
+    padding: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    font-size: 16px;
+    color: hsl(180, 100%, 18%);
+    background-color: hsl(0, 0%, 84%);
+    border-radius: 3px;
+    padding: 5px;
+    border: 1px hsl(0, 0%, 0%) solid;
+}
+
+.button:hover {
+    color: hsl(180, 100%, 28%);
+}

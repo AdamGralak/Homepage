@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="JS/script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="CSS/style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap" rel="stylesheet">
+
+  <title>My website</title>
+</head>
+
+<body class="container">
+  <header class="container__header">Kryptowaluty</header>
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__checkOption">Przejdź do:</li>
+      <li> <a class="nav__item" href="#investment">Jak inwestować</a></li>
+      <li> <a class="nav__item" href="#security">Bezpieczeństwo</a></li>
+      <li> <a class="nav__item" href="#price">Ceny kryptowalut na rynku</a></li>
+      <li> <a class="nav__item" href="#prediction">Prognozy</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h1 class="mainHeader">Wirtualny pieniądz, czyli kryoptowaluty. </h1>
+    <div class="photo__position"><img src='https://i.postimg.cc/NM9mSmR3/12.jpg' class="photo" width="300" border='0'
+        alt='picture with crypto symbol' /></div>
+    <article class="main__article">Co musisz wiedzieć na start?</article>
+    <p>Kryptowaluta to rodzaj waluty cyfrowej, będącej systemem kodów i łańcuchów bloków, który
+      służy do realizacji transakcji. Miłośnik nowych technologii uzna, że są one alternatywnymi lub
+      wirtualnymi
+      pieniędzmi, które rozrastają się jeszcze bardziej wraz z postępującą digitalizacją.</p>
+
+    <article class="main__article" id="investment">Najważniejsza zasada podczas inwestowania:</article>
+    <p>Najważniejszą rzeczą podczas jakichkolwiek inwestycji jest opanowanie emocji i trzymanie się z góry
+      ustalonych zasad. Nie możemy sobie pozwolić, aby nasze działania były chaotyczne, ponieważ na dłuższą
+      metę
+      prawdopodobnie spowoduje to stratę pieniędzy. Wielu początkujących inwestorów popełnia błędy np. chcąc
+      odrobić stracone pieniądze i traci w ten sposób kolejne środki. Zdecydowanie lepiej jest zachować spokój
+      i
+      trzymać się swojej strategii nie wykonując impulsywnych działań.</p>
+    <article class="main__article">Ile kapitału przeznaczyć?</article>
+    <p>Bez wątpienia taktyka <i>"all in"</i> nie jest dobrym rozwiązaniem. Przy regularnym comiesięcznym
+      przeznaczaniem aktywów na pieniądz elektroniczny nie przekraczajmy bariery 30% swoich przychodów.
+      Inwestujmy
+      mądrze w kilka walut. Pamiętaj, że każda transakcja obciążona jest oprocentowaniem więc przerzucanie
+      aktywów
+      zbyt często również mija się z celem.</p>
+    <article class="main__article" id="security">Bezpieczeństwo</article>
+    <p> Pamiętaj aby korzystać z bezpiecznych stron internetowych świadczących usługi handlu kryptowalutami.
+      Wszelkie zabezpieczenia dodatkowymi pytanimi, znakami, dodatkowa weryfikacja poprzez SMS jest
+      <strong>jak
+        najbardziej wskazana!</strong>
+    </p>
+    <div class="photo__position"><img src='https://i.postimg.cc/TwhDzgvV/13.jpg' class="photo" width="300" border='0'
+        alt='security' /></div>
+    <article class="main__article" id="price">Od czego zależy cena kryptowalut?</article>
+    <p>Wycena kryptowalut opiera się o podstawowe mechanizmy rynkowe. Jednym z nich, jest prawo popytu i podaży.
+      Im
+      większy jest popyt i mniejsza podaż na daną kryptowalutę, tym wyższa będzie jej cena. Jeżeli sytuacja
+      jest
+      odwrotna - czyli popyt jest niewielki, a podaż duża, to wartość danej kryptowaluty będzie malała.
+      W odróżnieniu od tradycyjnych walut i wielu papierów wartościowych, podaż większości kryptowalut jest
+      ściśle
+      ograniczony - dla Bitcoina został ustalony na łączną emisję 21 000 000 sztuk BTC, a dla Litecoina 84 000
+      000
+      LTC. Na rynku kryptowalut istnieją jednak projekty, które nie mają z góry ustalonej podaży, są to między
+      innymi DOGE czy Ethereum.
+      Brak limitu podaży pozwala również uniknąć presji deflacyjnej, w miejscu której pojawia się delikatna
+      inflacja. Do roku 2140, czyli przybliżonej daty wydobycia wszystkich BTC, w sieci Bitcoin będzie miała
+      miejsce delikatna inflacja, która z każdym halvingiem (czyli przepołowieniem nagrody blokowej), będzie
+      się
+      zmniejszała.</p>
+    <button class="js-button button">Zmień motyw tabeli na <span class="main__button--value">ciemny</span></button>
+    <article class="main__article" id="prediction">Prognozy kryptowalut:</article>
+    <table class="main__table">
+      <tr>
+        <th class="main__table--tableCell" scope="col"> Nazwa </th>
+        <th class="main__table--tableCell" scope="col"> 2023r. </th>
+        <th class="main__table--tableCell" scope="col"> 2025r. </th>
+        <th class="main__table--tableCell" scope="col"> Największa cena w hostorii</th>
+      </tr>
+      <tr>
+        <th class="main__table--tableCell" scope="row"> Bitcoin </th>
+        <td class="main__table--tableCell"> 120 000 zł </td>
+        <td class="main__table--tableCell"> 1 200 000 zł </td>
+        <td class="main__table--tableCell"> 334 000zł </td>
+      </tr>
+      <tr>
+        <th class="main__table--tableCell" scope="row"> Ripple </th>
+        <td class="main__table--tableCell"> 4,07 zł</td>
+        <td class="main__table--tableCell"> 24 zł </td>
+        <td class="main__table--tableCell"> 8 zł </td>
+      </tr>
+      <tr>
+        <th class="main__table--tableCell" scope="row"> Ethereum </th>
+        <td class="main__table--tableCell"> 7 531 zł</td>
+        <td class="main__table--tableCell"> 46 000 zł </td>
+        <td class="main__table--tableCell"> 23 415 zł </td>
+      </tr>
+      <tr>
+        <th class="main__table--tableCell" scope="row"> Dogecoin </th>
+        <td class="main__table--tableCell"> 0,29 zł </td>
+        <td class="main__table--tableCell"> 10 zł </td>
+        <td class="main__table--tableCell"> 3,44 zł </td>
+      </tr>
+    </table>
+  </main>
+  <footer class="footer">Dane kontaktowe:<br>e-mail: gralak.adam2431@wp.pl <br> numer telefonu: +48 763 241 231 <br>
+    Strona ta nie ma
+    na celu skłonienia do zakupu, bądź inwestycji w wyżej wymienione środki.</footer>
+</body>
+
+</html>
